@@ -1,20 +1,55 @@
 * {
+    border: border-box;
     background-color: lightskyblue;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+}
+
+#header {
+    color: teal;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    background-color: maroon;
+    border: thick;
+}
+
+#hero {
+    display: block;
+    margin: 0 auto;
 }
 
 .content {
     color: #800080;
-    margin: 25px;
+    font-size: 20px;
+    margin: 50px;
+    padding: 25px;
+    float: center;
 }
 
-.bio {
+#bio {
+    display: inline-block;
     color: green;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+    border: thick double;
 }
 
-iframe {
-    width: 500;
-    height: 300;
+#list {
+    display: inline-block;
+
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+.content p {
+    text-align: center;
 }
