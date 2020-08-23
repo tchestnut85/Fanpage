@@ -1,18 +1,18 @@
 * {
-    border: border-box;
-    background-color: lightskyblue;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: silver;
 }
 
-#header {
+.header {
+    display: flex;
+    justify-content: center;
     color: teal;
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 50px auto 50px auto;
-    background-color: maroon;
-    border: thick;
+    margin: 5px auto;
+    /* background-color: maroon; */
+    border: 5px solid;
 }
 
 #hero {
@@ -26,6 +26,7 @@
     margin: 50px;
     padding: 25px;
     float: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #bio {
